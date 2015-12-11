@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+Extension.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(20, 20, 100, 100)];
+    [btn roundWithWidth:btn.width andBorderColor:[UIColor redColor]];
+    [self.view addSubview:btn];
+    
 }
 
 - (void)didReceiveMemoryWarning {

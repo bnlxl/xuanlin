@@ -15,6 +15,8 @@
 		C96B01911C1AAAB70038B91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96B018F1C1AAAB70038B91B /* LaunchScreen.storyboard */; };
 		C96B019C1C1AAAB70038B91B /* MyToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B019B1C1AAAB70038B91B /* MyToolsTests.m */; };
 		C96B01A71C1AAAB70038B91B /* MyToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B01A61C1AAAB70038B91B /* MyToolsUITests.m */; };
+		C96B01BF1C1AABA60038B91B /* LogExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B01BC1C1AABA60038B91B /* LogExtension.m */; };
+		C96B01C01C1AABA60038B91B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B01BE1C1AABA60038B91B /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C96B01A21C1AAAB70038B91B /* MyToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96B01A61C1AAAB70038B91B /* MyToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyToolsUITests.m; sourceTree = "<group>"; };
 		C96B01A81C1AAAB70038B91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96B01BB1C1AABA60038B91B /* LogExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogExtension.h; sourceTree = "<group>"; };
+		C96B01BC1C1AABA60038B91B /* LogExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogExtension.m; sourceTree = "<group>"; };
+		C96B01BD1C1AABA60038B91B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C96B01BE1C1AABA60038B91B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		C96B01801C1AAAB70038B91B /* MyTools */ = {
 			isa = PBXGroup;
 			children = (
+				C96B01BA1C1AAB6F0038B91B /* MyTools */,
 				C96B01841C1AAAB70038B91B /* AppDelegate.h */,
 				C96B01851C1AAAB70038B91B /* AppDelegate.m */,
 				C96B01871C1AAAB70038B91B /* ViewController.h */,
@@ -138,6 +145,17 @@
 				C96B01A81C1AAAB70038B91B /* Info.plist */,
 			);
 			path = MyToolsUITests;
+			sourceTree = "<group>";
+		};
+		C96B01BA1C1AAB6F0038B91B /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				C96B01BB1C1AABA60038B91B /* LogExtension.h */,
+				C96B01BC1C1AABA60038B91B /* LogExtension.m */,
+				C96B01BD1C1AABA60038B91B /* UIView+Extension.h */,
+				C96B01BE1C1AABA60038B91B /* UIView+Extension.m */,
+			);
+			path = MyTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96B01C01C1AABA60038B91B /* UIView+Extension.m in Sources */,
+				C96B01BF1C1AABA60038B91B /* LogExtension.m in Sources */,
 				C96B01891C1AAAB70038B91B /* ViewController.m in Sources */,
 				C96B01861C1AAAB70038B91B /* AppDelegate.m in Sources */,
 				C96B01831C1AAAB70038B91B /* main.m in Sources */,

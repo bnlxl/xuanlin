@@ -10,7 +10,6 @@
 		C96B01831C1AAAB70038B91B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B01821C1AAAB70038B91B /* main.m */; };
 		C96B01861C1AAAB70038B91B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B01851C1AAAB70038B91B /* AppDelegate.m */; };
 		C96B01891C1AAAB70038B91B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B01881C1AAAB70038B91B /* ViewController.m */; };
-		C96B018C1C1AAAB70038B91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96B018A1C1AAAB70038B91B /* Main.storyboard */; };
 		C96B018E1C1AAAB70038B91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96B018D1C1AAAB70038B91B /* Assets.xcassets */; };
 		C96B01911C1AAAB70038B91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96B018F1C1AAAB70038B91B /* LaunchScreen.storyboard */; };
 		C96B019C1C1AAAB70038B91B /* MyToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B019B1C1AAAB70038B91B /* MyToolsTests.m */; };
@@ -43,7 +42,6 @@
 		C96B01851C1AAAB70038B91B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C96B01871C1AAAB70038B91B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C96B01881C1AAAB70038B91B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C96B018B1C1AAAB70038B91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C96B018D1C1AAAB70038B91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96B01901C1AAAB70038B91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96B01921C1AAAB70038B91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				C96B01851C1AAAB70038B91B /* AppDelegate.m */,
 				C96B01871C1AAAB70038B91B /* ViewController.h */,
 				C96B01881C1AAAB70038B91B /* ViewController.m */,
-				C96B018A1C1AAAB70038B91B /* Main.storyboard */,
 				C96B018D1C1AAAB70038B91B /* Assets.xcassets */,
 				C96B018F1C1AAAB70038B91B /* LaunchScreen.storyboard */,
 				C96B01921C1AAAB70038B91B /* Info.plist */,
@@ -266,7 +263,6 @@
 			files = (
 				C96B01911C1AAAB70038B91B /* LaunchScreen.storyboard in Resources */,
 				C96B018E1C1AAAB70038B91B /* Assets.xcassets in Resources */,
-				C96B018C1C1AAAB70038B91B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C96B018A1C1AAAB70038B91B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C96B018B1C1AAAB70038B91B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C96B018F1C1AAAB70038B91B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -521,6 +509,7 @@
 				C96B01AD1C1AAAB70038B91B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96B01AE1C1AAAB70038B91B /* Build configuration list for PBXNativeTarget "MyToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +518,7 @@
 				C96B01B01C1AAAB70038B91B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96B01B11C1AAAB70038B91B /* Build configuration list for PBXNativeTarget "MyToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +527,7 @@
 				C96B01B31C1AAAB70038B91B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
